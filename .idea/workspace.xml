@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78f42155-e2b8-449e-a4f9-bba87df6e1df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iKM6A3b1AeYJdNvAzCQOVnXltL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="world.ucode.Main" />
+      <module name="tamagochi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78f42155-e2b8-449e-a4f9-bba87df6e1df" name="Default Changelist" comment="" />
+      <created>1601651652183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601651652183</updated>
+      <workItem from="1601651653208" duration="4904000" />
+      <workItem from="1601658932626" duration="1616000" />
+      <workItem from="1601901645375" duration="1307000" />
+      <workItem from="1601908326649" duration="2927000" />
+      <workItem from="1601915077966" duration="1386000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="495" y="381" key="#Inspections" timestamp="1601658892372">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state x="495" y="381" key="#Inspections/0.23.2560.1345@0.23.2560.1345" timestamp="1601658892372" />
+    <state x="598" y="277" key="#Project_Structure" timestamp="1601659583520">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state x="598" y="277" key="#Project_Structure/0.23.2560.1345@0.23.2560.1345" timestamp="1601659583520" />
+    <state x="575" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601908435921">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state x="575" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1345@0.23.2560.1345" timestamp="1601908435921" />
+    <state x="1142" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1601658182635">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state x="1142" y="406" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1345@0.23.2560.1345" timestamp="1601658182635" />
+    <state x="647" y="524" width="927" height="343" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1601909101709">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state x="647" y="524" width="927" height="343" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.23.2560.1345@0.23.2560.1345" timestamp="1601909101709" />
+    <state width="1527" height="380" key="GridCell.Tab.0.bottom" timestamp="1601917314104">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1527" height="380" key="GridCell.Tab.0.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1601917314104" />
+    <state width="1527" height="380" key="GridCell.Tab.0.center" timestamp="1601917314103">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1527" height="380" key="GridCell.Tab.0.center/0.23.2560.1345@0.23.2560.1345" timestamp="1601917314103" />
+    <state width="1527" height="380" key="GridCell.Tab.0.left" timestamp="1601917314103">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1527" height="380" key="GridCell.Tab.0.left/0.23.2560.1345@0.23.2560.1345" timestamp="1601917314103" />
+    <state width="1527" height="380" key="GridCell.Tab.0.right" timestamp="1601917314103">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1527" height="380" key="GridCell.Tab.0.right/0.23.2560.1345@0.23.2560.1345" timestamp="1601917314103" />
+    <state width="1527" height="467" key="GridCell.Tab.1.bottom" timestamp="1601909114128">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1527" height="467" key="GridCell.Tab.1.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1601909114128" />
+    <state width="1527" height="467" key="GridCell.Tab.1.center" timestamp="1601909114127">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1527" height="467" key="GridCell.Tab.1.center/0.23.2560.1345@0.23.2560.1345" timestamp="1601909114127" />
+    <state width="1527" height="467" key="GridCell.Tab.1.left" timestamp="1601909114127">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1527" height="467" key="GridCell.Tab.1.left/0.23.2560.1345@0.23.2560.1345" timestamp="1601909114127" />
+    <state width="1527" height="467" key="GridCell.Tab.1.right" timestamp="1601909114127">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1527" height="467" key="GridCell.Tab.1.right/0.23.2560.1345@0.23.2560.1345" timestamp="1601909114127" />
+    <state x="912" y="357" key="Maven.ArtifactSearchDialog" timestamp="1601901882200">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state x="912" y="357" key="Maven.ArtifactSearchDialog/0.23.2560.1345@0.23.2560.1345" timestamp="1601901882200" />
+    <state x="577" y="330" width="670" height="676" key="search.everywhere.popup" timestamp="1601908478180">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state x="577" y="330" width="670" height="676" key="search.everywhere.popup/0.23.2560.1345@0.23.2560.1345" timestamp="1601908478180" />
+  </component>
+</project>
