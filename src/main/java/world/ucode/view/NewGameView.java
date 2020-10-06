@@ -1,20 +1,19 @@
 package world.ucode.view;
 
-import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
-import world.ucode.Main;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
 public class NewGameView {
-    public Button newGame;
-    public Button loadGame;
-    public TextField loadInput;
-    public TextField newInput;
+    Parent root;
+    Scene scene;
 
-    public void newGamePressed() {
-        Main.newGameCtrl.newInputParse(newInput.getText());
-    }
+    public NewGameView(Stage stage) throws Exception {
+        root = FXMLLoader.load(getClass().getResource("/newGame.fxml"));
+        scene = new Scene(root, 1001, 562);
 
-    public void loadGamePressed() {
-        Main.newGameCtrl.loadInputParse(loadInput.getText());
+        stage.setScene(scene);
+        stage.show();
     }
 }

@@ -1,11 +1,15 @@
 package world.ucode.model;
 
 public class NewGameModel {
-    public void newInputData(String data) {
-        System.out.println("newInputData: success | " + data);
+    public int newInputData(String data) {
+        if (data.equals("Grisha"))
+            return 1;
+        else return 0;
     }
 
-    public void loadInputData(String data) {
-    System.out.println("loadInputData: success | " + data);
+    public int loadInputData(String data) {
+        if (data.equals("Oleg"))
+            return 1;
+        else return 0;
     }
 }
