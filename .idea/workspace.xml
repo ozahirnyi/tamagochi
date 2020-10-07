@@ -14,12 +14,131 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78f42155-e2b8-449e-a4f9-bba87df6e1df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chars/borutoStand.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/control/NewGameCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/control/NewGameCtrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/model/NewGameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/model/NewGameModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/view/NewGameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/view/NewGameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/view/NewGameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/view/startView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/1(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/1-sprite-png-can-image-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/10-2-sprite-png-picture-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/11-2-sprite-free-download-png-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/11-sprite-png-bottle-image-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/18-sprite-png-can-image-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/21176.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/30623-9-naruto-the-last-picture-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/30757-7-naruto-the-last-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/32495-4-kakashi-hd-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/33583-8-itachi-uchiha-transparent-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/34807-4-boruto-hd-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/34930-7-boruto-image-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/37627-1-aang-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/5-sprite-png-bottle-image-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/65759-project-distribution-installation-fedora-linux-free-transparent-image-hd-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/8-2-gnome-picture-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/83799-biome-play-art-of-zelda-pixel-breath-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/86321-and-art-sprite-undertale-line-black-white-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/86346-head-line-sans-sprite-undertale-free-clipart-hq-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/86410-and-sprite-undertale-game-black-video-white-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/86648-velociraptor-toronto-art-dinosaur-mammal-raptors-pixel-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/addthis_widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/analytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/coffee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/cookieconsent.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/i.match" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/ibs_dpid=134096&amp;dpuuid=AB42_yGP99ecS95K&amp;redir=https___stags.bluekai.com_site_43981_id=${DD_UUID}" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/jquery.lazy.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/light-bottom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/moatframe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/rss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/sh.f48a1a04fe8dbf021b4cda1d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/NSBS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/borutoNewGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/borutoNewGame1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/borutoNewGame2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/borutoNewGame3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/borutoSaradaSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/eyesNewGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/konohaNewGame.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/konohaNewGame1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/konohaNewGame2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/narutoNewGame.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/newGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/newGame.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sasukeNewGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/1(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/1-sprite-png-can-image-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/10-2-sprite-png-picture-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/11-2-sprite-free-download-png-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/11-sprite-png-bottle-image-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/18-sprite-png-can-image-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/21176.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/30623-9-naruto-the-last-picture-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/30757-7-naruto-the-last-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/32495-4-kakashi-hd-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/33583-8-itachi-uchiha-transparent-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/34807-4-boruto-hd-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/34930-7-boruto-image-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/37627-1-aang-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/5-sprite-png-bottle-image-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/65759-project-distribution-installation-fedora-linux-free-transparent-image-hd-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/8-2-gnome-picture-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/83799-biome-play-art-of-zelda-pixel-breath-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/86321-and-art-sprite-undertale-line-black-white-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/86346-head-line-sans-sprite-undertale-free-clipart-hq-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/86410-and-sprite-undertale-game-black-video-white-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/86648-velociraptor-toronto-art-dinosaur-mammal-raptors-pixel-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/addthis_widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/analytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/coffee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/cookieconsent.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/i.match" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/ibs_dpid=134096&amp;dpuuid=AB42_yGP99ecS95K&amp;redir=https___stags.bluekai.com_site_43981_id=${DD_UUID}" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/jquery.lazy.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/light-bottom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/moatframe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/rss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/sh.f48a1a04fe8dbf021b4cda1d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Download Ouphe Free PNG photo images and clipart _ FreePNGImg_files/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NSBS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/borutoNewGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/borutoNewGame1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/borutoNewGame2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/borutoNewGame3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/borutoSaradaSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyesNewGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/konohaNewGame.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/konohaNewGame1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/konohaNewGame2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/narutoNewGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/newGame.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sasukeNewGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/control/NewGameCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/control/NewGameCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/model/NewGameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/model/NewGameModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/view/NewGameView.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +149,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -50,10 +170,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/chars" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,21 +189,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/chars" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="world.ucode.Main" />
       <module name="tamagochi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,7 +224,11 @@
       <workItem from="1601982705291" duration="2783000" />
       <workItem from="1601993114570" duration="3315000" />
       <workItem from="1601999572840" duration="2153000" />
-      <workItem from="1602008219561" duration="2471000" />
+      <workItem from="1602008219561" duration="2584000" />
+      <workItem from="1602056919977" duration="5694000" />
+      <workItem from="1602073225191" duration="1281000" />
+      <workItem from="1602078614664" duration="2999000" />
+      <workItem from="1602088179894" duration="206000" />
     </task>
     <servers />
   </component>
@@ -139,46 +260,50 @@
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
     <state x="575" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1345@0.23.2560.1345" timestamp="1601908435921" />
-    <state x="1142" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1602011254187">
+    <state x="1142" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1602082116595">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state x="1142" y="406" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1345@0.23.2560.1345" timestamp="1602011254187" />
+    <state x="1142" y="406" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1345@0.23.2560.1345" timestamp="1602082116595" />
+    <state x="1199" y="449" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602074334094">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state x="1199" y="449" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1345@0.23.2560.1345" timestamp="1602074334094" />
     <state x="647" y="524" width="927" height="343" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1601909101709">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
     <state x="647" y="524" width="927" height="343" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.23.2560.1345@0.23.2560.1345" timestamp="1601909101709" />
-    <state width="2156" height="328" key="GridCell.Tab.0.bottom" timestamp="1602011604309">
+    <state width="2156" height="177" key="GridCell.Tab.0.bottom" timestamp="1602083165268">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2156" height="328" key="GridCell.Tab.0.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1602011604309" />
-    <state width="2156" height="328" key="GridCell.Tab.0.center" timestamp="1602011604308">
+    <state width="2156" height="177" key="GridCell.Tab.0.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1602083165268" />
+    <state width="2156" height="177" key="GridCell.Tab.0.center" timestamp="1602083165267">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2156" height="328" key="GridCell.Tab.0.center/0.23.2560.1345@0.23.2560.1345" timestamp="1602011604308" />
-    <state width="2156" height="328" key="GridCell.Tab.0.left" timestamp="1602011604308">
+    <state width="2156" height="177" key="GridCell.Tab.0.center/0.23.2560.1345@0.23.2560.1345" timestamp="1602083165267" />
+    <state width="2156" height="177" key="GridCell.Tab.0.left" timestamp="1602083165267">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2156" height="328" key="GridCell.Tab.0.left/0.23.2560.1345@0.23.2560.1345" timestamp="1602011604308" />
-    <state width="2156" height="328" key="GridCell.Tab.0.right" timestamp="1602011604309">
+    <state width="2156" height="177" key="GridCell.Tab.0.left/0.23.2560.1345@0.23.2560.1345" timestamp="1602083165267" />
+    <state width="2156" height="177" key="GridCell.Tab.0.right" timestamp="1602083165267">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2156" height="328" key="GridCell.Tab.0.right/0.23.2560.1345@0.23.2560.1345" timestamp="1602011604309" />
-    <state width="2156" height="232" key="GridCell.Tab.1.bottom" timestamp="1602011187775">
+    <state width="2156" height="177" key="GridCell.Tab.0.right/0.23.2560.1345@0.23.2560.1345" timestamp="1602083165267" />
+    <state width="2156" height="232" key="GridCell.Tab.1.bottom" timestamp="1602065536812">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2156" height="232" key="GridCell.Tab.1.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1602011187775" />
-    <state width="2156" height="232" key="GridCell.Tab.1.center" timestamp="1602011187774">
+    <state width="2156" height="232" key="GridCell.Tab.1.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536812" />
+    <state width="2156" height="232" key="GridCell.Tab.1.center" timestamp="1602065536811">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2156" height="232" key="GridCell.Tab.1.center/0.23.2560.1345@0.23.2560.1345" timestamp="1602011187774" />
-    <state width="2156" height="232" key="GridCell.Tab.1.left" timestamp="1602011187774">
+    <state width="2156" height="232" key="GridCell.Tab.1.center/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536811" />
+    <state width="2156" height="232" key="GridCell.Tab.1.left" timestamp="1602065536811">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2156" height="232" key="GridCell.Tab.1.left/0.23.2560.1345@0.23.2560.1345" timestamp="1602011187774" />
-    <state width="2156" height="232" key="GridCell.Tab.1.right" timestamp="1602011187775">
+    <state width="2156" height="232" key="GridCell.Tab.1.left/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536811" />
+    <state width="2156" height="232" key="GridCell.Tab.1.right" timestamp="1602065536811">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2156" height="232" key="GridCell.Tab.1.right/0.23.2560.1345@0.23.2560.1345" timestamp="1602011187775" />
+    <state width="2156" height="232" key="GridCell.Tab.1.right/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536811" />
     <state x="912" y="357" key="Maven.ArtifactSearchDialog" timestamp="1601901882200">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>

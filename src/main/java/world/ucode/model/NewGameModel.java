@@ -9,7 +9,7 @@ public class NewGameModel {
 
     public int loadInputData(String data) {
         if (data.equals("Oleg"))
-            return 1;
-        else return 0;
+            return 0;
+        else return 1;
     }
 }
