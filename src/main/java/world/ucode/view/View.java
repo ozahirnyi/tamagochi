@@ -3,20 +3,22 @@ package world.ucode.view;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import world.ucode.Main;
 
-public class startView {
+public class View {
+    public static borutoChar borutoChar;
     Stage mainStage;
-    Parent newRoot;
-    Parent gameRoot;
-    Parent overRoot;
+    Pane newRoot;
+    Pane gameRoot;
+    Pane overRoot;
     Scene newScene;
-    Scene gameScene;
+    public static Scene gameScene;
     Scene overScene;
     int x,y;
 
-    public startView(Stage stage) throws Exception {
+    public View(Stage stage) throws Exception {
         mainStage = stage;
         x = 1001;
         y = 562;
@@ -32,8 +34,11 @@ public class startView {
     }
 
     public void gameCreator() throws Exception {
+        borutoChar = new borutoChar();
         gameRoot = FXMLLoader.load(getClass().getResource("/gamePlay.fxml"));
+        gameRoot.getChildren().add(borutoChar);
         gameScene = new Scene(gameRoot, 800, 600);
+        Main.Ctrl.gamePlayKeyPressed();
         mainStage.setScene(gameScene);
         mainStage.show();
     }

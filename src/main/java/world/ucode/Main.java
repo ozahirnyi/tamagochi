@@ -2,19 +2,19 @@ package world.ucode;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-import world.ucode.control.NewGameCtrl;
-import world.ucode.model.NewGameModel;
-import world.ucode.view.startView;
+import world.ucode.control.Ctrl;
+import world.ucode.model.Model;
+import world.ucode.view.View;
 
 public class Main extends Application {
-  static public NewGameCtrl newGameCtrl = new NewGameCtrl();
-  static public NewGameModel newGameModel = new NewGameModel();
-  static public startView startView;
+  static public Ctrl Ctrl = new Ctrl();
+  static public Model Model = new Model();
+  static public View View;
 
   @Override
   public void start(Stage stage) throws Exception {
     stage.setTitle("Tamagochi");
-    startView = new startView(stage);
+    View = new View(stage);
   }
 
   public static void main(String[] args) {
