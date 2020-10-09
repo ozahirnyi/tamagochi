@@ -13,7 +13,17 @@ public class Ctrl {
     public Button newGame;
     public Button loadGame;
     public Button settingsButton;
-    public ProgressBar statusBar;
+    public Button trainButton;
+    public Button feedButton;
+    public Button waterButton;
+    public Button medicButton;
+    public Button cleanButton;
+    public ProgressBar progressBar;
+    public ProgressBar hungerBar;
+    public ProgressBar healthBar;
+    public ProgressBar happinessBar;
+    public ProgressBar thirstBar;
+    public ProgressBar cleanBar;
     public TextField loadInput;
     public TextField newInput;
 
@@ -21,19 +31,19 @@ public class Ctrl {
     View.gameScene.setOnKeyPressed(
         event -> {
           KeyCode keyCode = event.getCode();
-          if ((keyCode.equals(keyCode.W)) && Main.Model.canBorutoMove('W')) {
-            View.borutoChar.setTranslateY(View.borutoChar.getTranslateY() - 5);
-          }
-          else if ((keyCode.equals(keyCode.S)) && Main.Model.canBorutoMove('S')) {
-              View.borutoChar.setTranslateY(View.borutoChar.getTranslateY() + 5);
-          }
-          else if ((keyCode.equals(keyCode.A)) && Main.Model.canBorutoMove('A')) {
-              View.borutoChar.setTranslateX(View.borutoChar.getTranslateX() - 10);
-          }
-          else if ((keyCode.equals(keyCode.D)) && Main.Model.canBorutoMove('D')) {
-              View.borutoChar.setTranslateX(View.borutoChar.getTranslateX() + 10);
-          }
+          if ((keyCode.equals(keyCode.W)))
+              Main.Model.canBorutoMove('W');
+          else if ((keyCode.equals(keyCode.S)))
+              Main.Model.canBorutoMove('S');
+          else if ((keyCode.equals(keyCode.A)))
+              Main.Model.canBorutoMove('A');
+          else if ((keyCode.equals(keyCode.D)))
+              Main.Model.canBorutoMove('D');
         });
+    }
+
+    public void setTrainButton() throws Exception {
+        Main.Model.trainPressed();
     }
 
     public void newGamePressed() throws Exception {

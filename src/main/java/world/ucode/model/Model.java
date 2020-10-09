@@ -2,17 +2,31 @@ package world.ucode.model;
 
 import world.ucode.view.View;
 
+class GameLogicData {
+    static int health = 50;
+    static int happiness = 50;
+    static int hunger = 50;
+    static int thirst = 50;
+    static int cleanliness = 50;
+    static int progressBar = 50;
+}
+
 public class Model {
-    public boolean canBorutoMove(char key) {
-        if (key == 'W')
-            return View.borutoChar.getTranslateY() >= 333;
-        else if (key == 'S')
-            return View.borutoChar.getTranslateY() <= 388;
-        else if (key == 'D')
-            return View.borutoChar.getTranslateX() <= 760;
-        else if (key == 'A')
-            return View.borutoChar.getTranslateX() >= 0;
-        else return false;
+    GameLogicData gameLogicData = new GameLogicData();
+
+    public void canBorutoMove(char key) {
+        if (key == 'W' && View.borutoChar.getTranslateY() >= 333)
+            View.borutoChar.setTranslateY(View.borutoChar.getTranslateY() - 5);
+        else if (key == 'S' && View.borutoChar.getTranslateY() <= 388)
+            View.borutoChar.setTranslateY(View.borutoChar.getTranslateY() + 5);
+        else if (key == 'D' && View.borutoChar.getTranslateX() <= 760)
+            View.borutoChar.setTranslateX(View.borutoChar.getTranslateX() + 10);
+        else if (key == 'A' && View.borutoChar.getTranslateX() >= 0)
+            View.borutoChar.setTranslateX(View.borutoChar.getTranslateX() - 10);
+    }
+
+    public void trainPressed() {
+
     }
 
     public int newInputData(String data) {
