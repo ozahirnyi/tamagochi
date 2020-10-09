@@ -3,6 +3,7 @@ package world.ucode.view;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.ProgressBar;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import world.ucode.Main;

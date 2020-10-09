@@ -1,15 +1,14 @@
 package world.ucode.control;
 
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import world.ucode.Main;
+//import world.ucode.model.GameLogicData;
 import world.ucode.view.View;
 
 public class Ctrl {
-    public Scene gamePlay;
     public Button newGame;
     public Button loadGame;
     public Button settingsButton;
@@ -43,7 +42,25 @@ public class Ctrl {
     }
 
     public void setTrainButton() throws Exception {
-        Main.Model.trainPressed();
+        progressBar.setProgress(progressBar.getProgress() + 0.1);
+//        Main.Model.trainPressed();
+    }
+
+    public void setFeedButton() throws Exception {
+        progressBar.setProgress(progressBar.getProgress() - 0.1);
+//        Main.Model.feedPressed();
+    }
+
+    public void setWaterButton() throws Exception {
+        Main.Model.waterPressed();
+    }
+
+    public void setMedicButton() throws Exception {
+        Main.Model.medicPressed();
+    }
+
+    public void setCleanButton() throws Exception {
+        Main.Model.cleanPressed();
     }
 
     public void newGamePressed() throws Exception {
@@ -55,7 +72,7 @@ public class Ctrl {
     public void loadGamePressed() throws Exception {
         if (loadInputParse(loadInput.getText()) == 1) {
             Main.View.gameCreator();
-        } else System.out.println("newGame: Error");
+        } else System.out.println("loadGame: Error");
     }
 
     public int newInputParse(String data) {
