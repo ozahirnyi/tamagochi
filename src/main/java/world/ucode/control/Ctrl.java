@@ -5,7 +5,7 @@ import javafx.scene.control.ProgressBar;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import world.ucode.Main;
-//import world.ucode.model.GameLogicData;
+import world.ucode.model.Model;
 import world.ucode.view.View;
 
 public class Ctrl {
@@ -43,12 +43,12 @@ public class Ctrl {
 
     public void setTrainButton() throws Exception {
         progressBar.setProgress(progressBar.getProgress() + 0.1);
-//        Main.Model.trainPressed();
+        Model.trainPressed();
     }
 
     public void setFeedButton() throws Exception {
         progressBar.setProgress(progressBar.getProgress() - 0.1);
-//        Main.Model.feedPressed();
+        Main.Model.feedPressed();
     }
 
     public void setWaterButton() throws Exception {

@@ -2,51 +2,86 @@ package world.ucode.view;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
 import javafx.util.Duration;
+import world.ucode.model.Model;
+
 import java.util.ArrayDeque;
 
 public class borutoChar extends Pane {
-    private final ArrayDeque<ImageView> stand = new ArrayDeque<ImageView>();
-    private final Timeline standLine = new Timeline();
+  public boolean stayStatus = false;
+  private final ArrayDeque<ImageView> stand = new ArrayDeque<>();
+  private final ArrayDeque<ImageView> run = new ArrayDeque<>();
+  private final Timeline standLine;
+  private final Timeline runLine;
 
-    public borutoChar() {
-        this.setTranslateX(100);
-        this.setTranslateY(345);
-        setImageViews();
-        getChildren().add(stand.getFirst());
-        borutoStand();
+  public borutoChar() {
+    this.setTranslateX(100);
+    this.setTranslateY(345);
+    setImageViews();
+    standLine = timeLineCreator(stand);
+    runLine = timeLineCreator(run);
+    borutoStand();
+  }
+
+  private void setImageViews() {
+    for (int i = 0; i < 4; i++) {
+      ImageView imageViewRun =
+          new ImageView(
+              new Image(
+                  this.getClass()
+                      .getResourceAsStream("/chars/boruto/borutoRuns/borutoRuns" + i + ".png")));
+      imageViewRun.setFitHeight(90);
+      imageViewRun.setFitWidth(90);
+      run.push(imageViewRun);
     }
-
-    private void setImageViews() {
-        for (int i = 0; i < 5; i++) {
-            ImageView imageView = new ImageView(new Image(this.getClass().getResourceAsStream("/chars/boruto/borutoStand" + i + ".png")));
-            imageView.setFitHeight(100);
-            imageView.setFitWidth(50);
-            stand.push(imageView);
-        }
+    for (int i = 0; i < 5; i++) {
+      ImageView imageViewStand =
+          new ImageView(
+              new Image(
+                  this.getClass().getResourceAsStream("/chars/boruto/borutoStand" + i + ".png")));
+      imageViewStand.setFitHeight(100);
+      imageViewStand.setFitWidth(50);
+      stand.push(imageViewStand);
     }
+  }
 
-    public void borutoStand() {
-    standLine
+  public Timeline timeLineCreator(ArrayDeque<ImageView> arrayDeque) {
+    Timeline timeline = new Timeline();
+
+    timeline
         .getKeyFrames()
         .add(
             new KeyFrame(
-                Duration.millis(500),
-                new EventHandler<ActionEvent>() {
-                  @Override
-                  public void handle(ActionEvent actionEvent) {
-                    getChildren().remove(stand.getFirst());
-                    stand.addLast(stand.getFirst());
-                    stand.removeFirst();
-                    getChildren().add(stand.getFirst());
-                  }
+                Duration.millis(150),
+                actionEvent -> {
+                  if (!Model.scale) setScaleX(-1);
+                  else setScaleX(1);
+                  getChildren().remove(arrayDeque.getFirst());
+                  arrayDeque.addLast(arrayDeque.getFirst());
+                  arrayDeque.removeFirst();
+                  getChildren().add(arrayDeque.getFirst());
                 }));
-        standLine.setCycleCount(Timeline.INDEFINITE);
-        standLine.play();
-    }
+
+    timeline.setCycleCount(Timeline.INDEFINITE);
+    return timeline;
+  }
+
+  public void borutoRuns() {
+    stayStatus = false;
+    standLine.stop();
+    getChildren().remove(stand.getFirst());
+    getChildren().add(run.getFirst());
+    runLine.play();
+  }
+
+  public void borutoStand() {
+    stayStatus = true;
+    runLine.stop();
+    getChildren().remove(run.getFirst());
+    getChildren().add(stand.getFirst());
+    standLine.play();
+  }
 }
