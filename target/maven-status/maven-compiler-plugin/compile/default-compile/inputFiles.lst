@@ -1,4 +1,7 @@
 /Users/ozahirnyi/IdeaProjects/tamagochi/src/main/java/world/ucode/Main.java
-/Users/ozahirnyi/IdeaProjects/tamagochi/src/main/java/world/ucode/view/NewGameView.java
+/Users/ozahirnyi/IdeaProjects/tamagochi/src/main/java/world/ucode/model/Model.java
+/Users/ozahirnyi/IdeaProjects/tamagochi/src/main/java/world/ucode/view/View.java
 /Users/ozahirnyi/IdeaProjects/tamagochi/src/main/java/module-info.java
-/Users/ozahirnyi/IdeaProjects/tamagochi/src/main/java/world/ucode/control/NewGameCtrl.java
+/Users/ozahirnyi/IdeaProjects/tamagochi/src/main/java/world/ucode/view/Cakra.java
+/Users/ozahirnyi/IdeaProjects/tamagochi/src/main/java/world/ucode/view/BorutoChar.java
+/Users/ozahirnyi/IdeaProjects/tamagochi/src/main/java/world/ucode/control/Ctrl.java

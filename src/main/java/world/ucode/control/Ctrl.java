@@ -1,5 +1,6 @@
 package world.ucode.control;
 
+import javafx.event.Event;
 import javafx.scene.control.Button;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.control.TextField;
@@ -38,6 +39,15 @@ public class Ctrl {
               Main.Model.canBorutoMove('A');
           else if ((keyCode.equals(keyCode.D)))
               Main.Model.canBorutoMove('D');
+        });
+    }
+
+    public void gamePlayKeyReleased() throws Exception {
+        View.gameScene.setOnKeyReleased(keyEvent -> {
+            KeyCode keyCode = keyEvent.getCode();
+            if (keyCode.equals(keyCode.W) || keyCode.equals(keyCode.A)
+                    || keyCode.equals(keyCode.S) || keyCode.equals(keyCode.D))
+                if (!View.borutoChar.stayStatus) View.borutoChar.borutoStand();
         });
     }
 

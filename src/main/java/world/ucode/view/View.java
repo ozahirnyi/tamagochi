@@ -1,18 +1,16 @@
 package world.ucode.view;
 
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.ProgressBar;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import world.ucode.Main;
 
 public class View {
-    public static borutoChar borutoChar;
+    public static BorutoChar borutoChar = new BorutoChar();
     Stage mainStage;
     Pane newRoot;
-    Pane gameRoot;
+    static Pane gameRoot;
     Pane overRoot;
     Scene newScene;
     public static Scene gameScene;
@@ -35,10 +33,10 @@ public class View {
     }
 
     public void gameCreator() throws Exception {
-        borutoChar = new borutoChar();
         gameRoot = FXMLLoader.load(getClass().getResource("/gamePlay.fxml"));
         gameRoot.getChildren().add(borutoChar);
         gameScene = new Scene(gameRoot, 800, 600);
+        Main.Ctrl.gamePlayKeyReleased();
         Main.Ctrl.gamePlayKeyPressed();
         mainStage.setScene(gameScene);
         mainStage.show();

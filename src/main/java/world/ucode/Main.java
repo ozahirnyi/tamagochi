@@ -8,8 +8,8 @@ import world.ucode.view.View;
 
 public class Main extends Application {
   static public Ctrl Ctrl = new Ctrl();
-  static public Model Model = new Model();
   static public View View;
+  static public Model Model = new Model();
 
   @Override
   public void start(Stage stage) throws Exception {

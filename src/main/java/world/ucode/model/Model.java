@@ -1,47 +1,45 @@
 package world.ucode.model;
 
-import javafx.animation.AnimationTimer;
 import world.ucode.view.View;
 
 class GameLogicData {
-  public static AnimationTimer update;
   public static int health = 50;
   public static int happiness = 50;
   public static int hunger = 50;
   public static int thirst = 50;
   public static int cleanliness = 50;
   public static double progressBar = 50;
+  public static double currentX;
+  public static double currentY;
 }
 
 public class Model {
   public static boolean scale = true;
-  private static final AnimationTimer update =
-      new AnimationTimer() {
-        @Override
-        public void handle(long now) {
-          if (!View.borutoChar.stayStatus) View.borutoChar.borutoStand();
-        }
-      };
 
   public void canBorutoMove(char key) {
     if (key == 'W' && View.borutoChar.getTranslateY() >= 333) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
-      View.borutoChar.setTranslateY(View.borutoChar.getTranslateY() - 7);
+      GameLogicData.currentY = View.borutoChar.getTranslateY() - 7;
+      View.borutoChar.setTranslateY(GameLogicData.currentY);
     } else if (key == 'S' && View.borutoChar.getTranslateY() <= 388) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
-      View.borutoChar.setTranslateY(View.borutoChar.getTranslateY() + 7);
+      GameLogicData.currentY = View.borutoChar.getTranslateY() + 7;
+      View.borutoChar.setTranslateY(GameLogicData.currentY);
     } else if (key == 'D' && View.borutoChar.getTranslateX() <= 760) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
-      View.borutoChar.setTranslateX(View.borutoChar.getTranslateX() + 13);
+      GameLogicData.currentX = View.borutoChar.getTranslateX() + 13;
+      View.borutoChar.setTranslateX(GameLogicData.currentX);
       scale = true;
     } else if (key == 'A' && View.borutoChar.getTranslateX() >= 0) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
-      View.borutoChar.setTranslateX(View.borutoChar.getTranslateX() - 13);
+      GameLogicData.currentX = View.borutoChar.getTranslateX() - 13;
+      View.borutoChar.setTranslateX(GameLogicData.currentX);
       scale = false;
     } else if (!View.borutoChar.stayStatus) View.borutoChar.borutoStand();
   }
 
   public static void trainPressed() {
+//    View.trainCreator();
     GameLogicData.progressBar += 5;
   }
 
