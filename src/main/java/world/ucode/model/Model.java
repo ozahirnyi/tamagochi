@@ -1,75 +1,109 @@
 package world.ucode.model;
 
+import world.ucode.Main;
 import world.ucode.view.View;
 
-class GameLogicData {
-  public enum lvls {STUDENT, GENIN, CHUNIN, JONIN, KAGE};
-  public lvls lvl = lvls.STUDENT;
-  public static int health = 50;
-  public static int happiness = 50;
-  public static int hunger = 50;
-  public static int thirst = 50;
-  public static int cleanliness = 50;
-  public static double progressBar = 50;
-  public static double currentX;
-  public static double currentY;
-}
+import java.util.ArrayDeque;
+
 
 public class Model {
+  public static ArrayDeque<String> lvls = new ArrayDeque<>();
+  public static double health = 0.5;
+  public static double happiness = 0.5;
+  public static double hunger = 0.5;
+  public static double thirst = 0.5;
+  public static double cleanliness = 0.5;
+  public static double progressBar = 0.5;
+  public static double currentX;
+  public static double currentY;
+
+  public Model() {
+    lvlsCreator();
+  }
+
+  private void lvlsCreator() {
+    lvls.push("KAGE");
+    lvls.push("JONIN");
+    lvls.push("CHUNIN");
+    lvls.push("GENIN");
+    lvls.push("STUDENT");
+  }
+
   public void canBorutoMove(char key) {
     if (key == 'W' && View.borutoChar.getTranslateY() >= 333) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
-      GameLogicData.currentY = View.borutoChar.getTranslateY() - 7;
-      View.borutoChar.setTranslateY(GameLogicData.currentY);
+      currentY = View.borutoChar.getTranslateY() - 7;
+      View.borutoChar.setTranslateY(currentY);
     } else if (key == 'S' && View.borutoChar.getTranslateY() <= 388) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
-      GameLogicData.currentY = View.borutoChar.getTranslateY() + 7;
-      View.borutoChar.setTranslateY(GameLogicData.currentY);
+      currentY = View.borutoChar.getTranslateY() + 7;
+      View.borutoChar.setTranslateY(currentY);
     } else if (key == 'D' && View.borutoChar.getTranslateX() <= 760) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
-      GameLogicData.currentX = View.borutoChar.getTranslateX() + 13;
+      currentX = View.borutoChar.getTranslateX() + 13;
       View.borutoChar.setScaleX(1);
-      View.borutoChar.setTranslateX(GameLogicData.currentX);
+      View.borutoChar.setTranslateX(currentX);
     } else if (key == 'A' && View.borutoChar.getTranslateX() >= 0) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
-      GameLogicData.currentX = View.borutoChar.getTranslateX() - 13;
+      currentX = View.borutoChar.getTranslateX() - 13;
       View.borutoChar.setScaleX(-1);
-      View.borutoChar.setTranslateX(GameLogicData.currentX);
+      View.borutoChar.setTranslateX(currentX);
     }
   }
 
-  public static void trainPressed() {
+  public void trainPressed() {
 //    View.trainCreator();
-    GameLogicData.progressBar += 5;
+    if (progressBar <= 1)
+      progressBar += 0.1;
   }
 
-//  private void checkLVL() {
-//    if (lvlUP())
-//      GameLogicData.lvl = GameLogicData.lvls.GENIN;
-//  }
+  public void checkLvl() {
+    if (lvlUp() && !lvls.getFirst().equals("KAGE")) {
+      lvls.addLast(lvls.getFirst());
+      lvls.removeFirst();
+      Main.CtrlGame.currentLvl.setText(lvls.getFirst());
+      progressBar = 0.1;
+      Main.CtrlGame.progressBar.setProgress(0.1);
+    }
+    else if (lvlDown() && !lvls.getFirst().equals("STUDENT")) {
+      lvls.addFirst(lvls.getLast());
+      lvls.removeLast();
+      Main.CtrlGame.currentLvl.setText(lvls.getFirst());
+      progressBar = 0.99;
+      Main.CtrlGame.progressBar.setProgress(0.99);
+    }
+  }
+
+//  public double barsCoef() {
 //
-//  private boolean lvlDOWN() {
-//    return GameLogicData.progressBar <= 0;
-//  }
-//
-//  private boolean lvlUP() {
-//    return GameLogicData.progressBar >= 100;
 //  }
 
-//  public void feedPressed() {
-//    GameLogicData.progressBar -= 5;
-//  }
+  private boolean lvlDown() {
+    return progressBar == 0;
+  }
+
+  private boolean lvlUp() {
+    return progressBar >= 1;
+  }
+
+  public void feedPressed() {
+    if (hunger <= 1)
+      hunger += 0.1;
+  }
 
   public void waterPressed() {
-    System.out.println("Water Pressed!");
+    if (thirst <= 1)
+      thirst += 0.1;
   }
 
   public void medicPressed() {
-    System.out.println("Medic Pressed!");
+    if (health <= 1)
+      health += 0.1;
   }
 
   public void cleanPressed() {
-    System.out.println("Clean Pressed!");
+    if (cleanliness <= 1)
+      cleanliness += 0.1;
   }
 
   public int newInputData(String data) {

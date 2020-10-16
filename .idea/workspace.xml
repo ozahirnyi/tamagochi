@@ -14,30 +14,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78f42155-e2b8-449e-a4f9-bba87df6e1df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/world/ucode/control/CtrlGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/control/Ctrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/control/CtrlNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/control/CtrlGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/control/CtrlGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/view/BorutoChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/view/BorutoChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/gamePlay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gamePlay.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/newGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/newGame.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/gamePlay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gamePlay.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/newGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/newGame.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/control/Ctrl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/model/GameLogicData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/model/GameLogicData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/control/CtrlGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/control/CtrlGame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/control/CtrlGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/control/CtrlGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/model/GameLogicData$lvls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/model/GameLogicData.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/model/Model.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/view/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/view/borutoChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/view/borutoChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tamagochi-1.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +142,7 @@
       <workItem from="1602769986207" duration="1702000" />
       <workItem from="1602783397006" duration="376000" />
       <workItem from="1602842277728" duration="4543000" />
-      <workItem from="1602851208175" duration="2304000" />
+      <workItem from="1602851208175" duration="10366000" />
     </task>
     <servers />
   </component>
@@ -207,46 +195,46 @@
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
     <state x="647" y="524" width="927" height="343" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.23.2560.1345@0.23.2560.1345" timestamp="1601909101709" />
-    <state width="590" height="1216" key="GridCell.Tab.0.bottom" timestamp="1602853395127">
+    <state width="363" height="1216" key="GridCell.Tab.0.bottom" timestamp="1602869836452">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="177" key="GridCell.Tab.0.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1602167850849" />
-    <state width="590" height="1216" key="GridCell.Tab.0.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1602853395127" />
-    <state width="590" height="1216" key="GridCell.Tab.0.center" timestamp="1602853395127">
+    <state width="363" height="1216" key="GridCell.Tab.0.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1602869836452" />
+    <state width="363" height="1216" key="GridCell.Tab.0.center" timestamp="1602869836451">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="177" key="GridCell.Tab.0.center/0.23.2560.1345@0.23.2560.1345" timestamp="1602167850849" />
-    <state width="590" height="1216" key="GridCell.Tab.0.center/0.23.2560.1352@0.23.2560.1352" timestamp="1602853395127" />
-    <state width="590" height="1216" key="GridCell.Tab.0.left" timestamp="1602853395127">
+    <state width="363" height="1216" key="GridCell.Tab.0.center/0.23.2560.1352@0.23.2560.1352" timestamp="1602869836451" />
+    <state width="363" height="1216" key="GridCell.Tab.0.left" timestamp="1602869836450">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="177" key="GridCell.Tab.0.left/0.23.2560.1345@0.23.2560.1345" timestamp="1602167850848" />
-    <state width="590" height="1216" key="GridCell.Tab.0.left/0.23.2560.1352@0.23.2560.1352" timestamp="1602853395127" />
-    <state width="590" height="1216" key="GridCell.Tab.0.right" timestamp="1602853395127">
+    <state width="363" height="1216" key="GridCell.Tab.0.left/0.23.2560.1352@0.23.2560.1352" timestamp="1602869836450" />
+    <state width="363" height="1216" key="GridCell.Tab.0.right" timestamp="1602869836451">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="177" key="GridCell.Tab.0.right/0.23.2560.1345@0.23.2560.1345" timestamp="1602167850849" />
-    <state width="590" height="1216" key="GridCell.Tab.0.right/0.23.2560.1352@0.23.2560.1352" timestamp="1602853395127" />
-    <state width="1930" height="317" key="GridCell.Tab.1.bottom" timestamp="1602853085791">
+    <state width="363" height="1216" key="GridCell.Tab.0.right/0.23.2560.1352@0.23.2560.1352" timestamp="1602869836451" />
+    <state width="1930" height="317" key="GridCell.Tab.1.bottom" timestamp="1602857354606">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="232" key="GridCell.Tab.1.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536812" />
-    <state width="1930" height="317" key="GridCell.Tab.1.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1602853085791" />
-    <state width="1930" height="317" key="GridCell.Tab.1.center" timestamp="1602853085790">
+    <state width="1930" height="317" key="GridCell.Tab.1.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1602857354606" />
+    <state width="1930" height="317" key="GridCell.Tab.1.center" timestamp="1602857354606">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="232" key="GridCell.Tab.1.center/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536811" />
-    <state width="1930" height="317" key="GridCell.Tab.1.center/0.23.2560.1352@0.23.2560.1352" timestamp="1602853085790" />
-    <state width="1930" height="317" key="GridCell.Tab.1.left" timestamp="1602853085790">
+    <state width="1930" height="317" key="GridCell.Tab.1.center/0.23.2560.1352@0.23.2560.1352" timestamp="1602857354606" />
+    <state width="1930" height="317" key="GridCell.Tab.1.left" timestamp="1602857354605">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="232" key="GridCell.Tab.1.left/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536811" />
-    <state width="1930" height="317" key="GridCell.Tab.1.left/0.23.2560.1352@0.23.2560.1352" timestamp="1602853085790" />
-    <state width="1930" height="317" key="GridCell.Tab.1.right" timestamp="1602853085790">
+    <state width="1930" height="317" key="GridCell.Tab.1.left/0.23.2560.1352@0.23.2560.1352" timestamp="1602857354605" />
+    <state width="1930" height="317" key="GridCell.Tab.1.right" timestamp="1602857354606">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="232" key="GridCell.Tab.1.right/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536811" />
-    <state width="1930" height="317" key="GridCell.Tab.1.right/0.23.2560.1352@0.23.2560.1352" timestamp="1602853085790" />
+    <state width="1930" height="317" key="GridCell.Tab.1.right/0.23.2560.1352@0.23.2560.1352" timestamp="1602857354606" />
     <state x="912" y="359" key="Maven.ArtifactSearchDialog" timestamp="1602757965406">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
@@ -256,10 +244,11 @@
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
     <state x="1001" y="356" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.2560.1345@0.23.2560.1345" timestamp="1601997071018" />
-    <state x="577" y="330" width="670" height="676" key="search.everywhere.popup" timestamp="1601908478180">
-      <screen x="0" y="23" width="2560" height="1345" />
+    <state x="577" y="332" width="670" height="680" key="search.everywhere.popup" timestamp="1602856345536">
+      <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state x="577" y="330" width="670" height="676" key="search.everywhere.popup/0.23.2560.1345@0.23.2560.1345" timestamp="1601908478180" />
+    <state x="577" y="332" width="670" height="680" key="search.everywhere.popup/0.23.2560.1352@0.23.2560.1352" timestamp="1602856345536" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

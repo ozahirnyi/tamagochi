@@ -5,7 +5,6 @@ import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import world.ucode.Main;
-import world.ucode.control.CtrlGame;
 
 public class View {
     public static BorutoChar borutoChar = new BorutoChar();
@@ -25,7 +24,6 @@ public class View {
         y = 562;
 
         newCreator();
-//        gameCreator();
     }
 
     public void newCreator() throws Exception {
@@ -43,7 +41,7 @@ public class View {
         gameRoot.getChildren().add(borutoChar);
         gameScene = new Scene(gameRoot, 800, 600);
         Main.CtrlGame = loader.getController();
-        CtrlGame.update();
+        Main.CtrlGame.update();
         mainStage.setScene(gameScene);
         mainStage.show();
     }
