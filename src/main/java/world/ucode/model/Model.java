@@ -3,6 +3,8 @@ package world.ucode.model;
 import world.ucode.view.View;
 
 class GameLogicData {
+  public enum lvls {STUDENT, GENIN, CHUNIN, JONIN, KAGE};
+  public lvls lvl = lvls.STUDENT;
   public static int health = 50;
   public static int happiness = 50;
   public static int hunger = 50;
@@ -14,8 +16,6 @@ class GameLogicData {
 }
 
 public class Model {
-  public static boolean scale = true;
-
   public void canBorutoMove(char key) {
     if (key == 'W' && View.borutoChar.getTranslateY() >= 333) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
@@ -28,14 +28,14 @@ public class Model {
     } else if (key == 'D' && View.borutoChar.getTranslateX() <= 760) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
       GameLogicData.currentX = View.borutoChar.getTranslateX() + 13;
+      View.borutoChar.setScaleX(1);
       View.borutoChar.setTranslateX(GameLogicData.currentX);
-      scale = true;
     } else if (key == 'A' && View.borutoChar.getTranslateX() >= 0) {
       if (View.borutoChar.stayStatus) View.borutoChar.borutoRuns();
       GameLogicData.currentX = View.borutoChar.getTranslateX() - 13;
+      View.borutoChar.setScaleX(-1);
       View.borutoChar.setTranslateX(GameLogicData.currentX);
-      scale = false;
-    } else if (!View.borutoChar.stayStatus) View.borutoChar.borutoStand();
+    }
   }
 
   public static void trainPressed() {
@@ -43,9 +43,22 @@ public class Model {
     GameLogicData.progressBar += 5;
   }
 
-  public void feedPressed() {
-    GameLogicData.progressBar -= 5;
-  }
+//  private void checkLVL() {
+//    if (lvlUP())
+//      GameLogicData.lvl = GameLogicData.lvls.GENIN;
+//  }
+//
+//  private boolean lvlDOWN() {
+//    return GameLogicData.progressBar <= 0;
+//  }
+//
+//  private boolean lvlUP() {
+//    return GameLogicData.progressBar >= 100;
+//  }
+
+//  public void feedPressed() {
+//    GameLogicData.progressBar -= 5;
+//  }
 
   public void waterPressed() {
     System.out.println("Water Pressed!");

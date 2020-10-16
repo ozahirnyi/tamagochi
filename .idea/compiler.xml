@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="tamagochi" target="1.9" />
+      <module name="tamagochi" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>

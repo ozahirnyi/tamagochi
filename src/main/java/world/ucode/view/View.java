@@ -5,9 +5,11 @@ import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import world.ucode.Main;
+import world.ucode.control.CtrlGame;
 
 public class View {
     public static BorutoChar borutoChar = new BorutoChar();
+    static Cakra cakra = new Cakra();
     Stage mainStage;
     Pane newRoot;
     static Pane gameRoot;
@@ -23,6 +25,7 @@ public class View {
         y = 562;
 
         newCreator();
+//        gameCreator();
     }
 
     public void newCreator() throws Exception {
@@ -33,12 +36,20 @@ public class View {
     }
 
     public void gameCreator() throws Exception {
-        gameRoot = FXMLLoader.load(getClass().getResource("/gamePlay.fxml"));
+        FXMLLoader loader = new FXMLLoader();
+
+        loader.setLocation(getClass().getResource("/gamePlay.fxml"));
+        gameRoot = loader.load(getClass().getResourceAsStream("/gamePlay.fxml"));
         gameRoot.getChildren().add(borutoChar);
         gameScene = new Scene(gameRoot, 800, 600);
-        Main.Ctrl.gamePlayKeyReleased();
-        Main.Ctrl.gamePlayKeyPressed();
+        Main.CtrlGame = loader.getController();
+        CtrlGame.update();
         mainStage.setScene(gameScene);
         mainStage.show();
+    }
+
+    public static void trainCreator() {
+        gameRoot.getChildren().add(cakra);
+        cakra.setCakra();
     }
 }

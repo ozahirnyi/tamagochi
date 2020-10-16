@@ -7,37 +7,56 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #69a42b;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="world.ucode.control.Ctrl">
-   <children>
-      <ImageView blendMode="SCREEN" fitHeight="374.0" fitWidth="480.0" layoutX="162.0" layoutY="-97.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@newGame/eyesNewGame.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="383.0" fitWidth="800.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@back/background.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="22.0" fitWidth="223.0" layoutX="289.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
-      <Button fx:id="settingsButton" layoutX="717.0" layoutY="38.0" minWidth="32.0" mnemonicParsing="false" onAction="#settingsPressed" prefHeight="32.0" prefWidth="69.0" style="-fx-background-color: blue;" text="Settings" textFill="WHITE" />
-      <ProgressBar fx:id="progressBar" layoutX="290.0" layoutY="43.0" prefHeight="22.0" prefWidth="223.0" progress="0.51" style="-fx-accent: blue; -fx-control-inner-background: #cc2500;" />
-      <ProgressBar fx:id="healthBar" layoutX="25.0" layoutY="500.0" prefHeight="20.0" prefWidth="99.0" progress="0.56" style="-fx-control-inner-background: #cc2500; -fx-border-color: #69a42b; -fx-accent: blue;" />
-      <ProgressBar fx:id="happinessBar" layoutX="25.0" layoutY="533.0" prefHeight="20.0" prefWidth="99.0" progress="0.56" style="-fx-control-inner-background: #cc2500; -fx-border-color: #69a42b; -fx-accent: blue;" />
-      <ProgressBar fx:id="hungerBar" layoutX="25.0" layoutY="564.0" prefHeight="20.0" prefWidth="99.0" progress="0.56" style="-fx-control-inner-background: #cc2500; -fx-border-color: #69a42b; -fx-accent: blue;" />
-      <ProgressBar fx:id="thirstBar" layoutX="138.0" layoutY="500.0" prefHeight="20.0" prefWidth="99.0" progress="0.56" style="-fx-control-inner-background: #cc2500; -fx-border-color: #69a42b; -fx-accent: blue;" />
-      <Text boundsType="VISUAL" fill="#00ff90" layoutX="319.0" layoutY="57.0" opacity="0.68" scaleX="1.33" scaleY="1.22" strokeType="OUTSIDE" strokeWidth="0.0" text="Progress Bar" textAlignment="CENTER" wrappingWidth="161.9830722808838" />
-      <Text fill="#00ff90" layoutX="153.0" layoutY="514.0" opacity="0.68" strokeType="OUTSIDE" strokeWidth="0.0" text="Thirst" textAlignment="CENTER" wrappingWidth="68.99998486042023" />
-      <Text fill="#00ff90" layoutX="40.0" layoutY="579.0" opacity="0.68" strokeType="OUTSIDE" strokeWidth="0.0" text="Hunger" textAlignment="CENTER" wrappingWidth="68.99998188018799" />
-      <Text fill="#00ff91" layoutX="40.0" layoutY="547.0" opacity="0.68" strokeType="OUTSIDE" strokeWidth="0.0" text="Happiness" textAlignment="CENTER" wrappingWidth="68.99998188018799" />
-      <Text fill="#00ff91" layoutX="40.0" layoutY="515.0" opacity="0.68" strokeType="OUTSIDE" strokeWidth="0.0" text="Health" textAlignment="CENTER" wrappingWidth="68.99998188018799" />
-      <ProgressBar fx:id="cleanBar" layoutX="138.0" layoutY="533.0" prefHeight="22.0" prefWidth="99.0" progress="0.56" style="-fx-control-inner-background: #cc2500; -fx-border-color: #69a42b; -fx-accent: blue;" />
-      <Text fill="#00ff90" layoutX="145.0" layoutY="548.0" opacity="0.68" strokeType="OUTSIDE" strokeWidth="0.0" text="Cleanliness" textAlignment="CENTER" wrappingWidth="84.99998486042023" />
-      <Button fx:id="trainButton" layoutX="350.0" layoutY="520.0" mnemonicParsing="false" onAction="#setTrainButton" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #1f8fe8;" text="Train" />
-      <Button fx:id="feedButton" layoutX="442.0" layoutY="520.0" mnemonicParsing="false" onAction="#setFeedButton" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #1f8fe8;" text="Feed" />
-      <Button fx:id="waterButton" layoutX="536.0" layoutY="520.0" mnemonicParsing="false" onAction="#setWaterButton" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #1f8fe8;" text="Water" />
-      <Button fx:id="medicButton" layoutX="628.0" layoutY="520.0" mnemonicParsing="false" onAction="#setMedicButton" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #1f8fe8;" text="Medic" />
-      <Button fx:id="cleanButton" layoutX="717.0" layoutY="520.0" mnemonicParsing="false" onAction="#setCleanButton" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #1f8fe8;" text="Clean" />
-      <Text boundsType="VISUAL" layoutX="330.0" layoutY="25.0" scaleX="1.21" scaleY="1.11" strokeType="OUTSIDE" strokeWidth="0.0" text="Student" textAlignment="CENTER" wrappingWidth="139.40363311767578" />
-   </children>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+      prefWidth="800.0" style="-fx-background-color: #69a42b;" xmlns="http://javafx.com/javafx/8.0.171"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="world.ucode.control.CtrlGame">
+   <ImageView blendMode="SCREEN" fitHeight="374.0" fitWidth="480.0" layoutX="162.0" layoutY="-97.0"
+              pickOnBounds="true" preserveRatio="true">
+      <Image url="@newGame/eyesNewGame.png"/>
+   </ImageView>
+   <ImageView fitHeight="383.0" fitWidth="800.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@back/background.png"/>
+   </ImageView>
+   <ImageView fitHeight="22.0" fitWidth="223.0" layoutX="289.0" layoutY="43.0" pickOnBounds="true"
+              preserveRatio="true"/>
+   <Button fx:id="settingsButton" layoutX="717.0" layoutY="38.0" minWidth="32.0" mnemonicParsing="false"
+           onAction="#settingsPressed" prefHeight="32.0" prefWidth="69.0" style="-fx-background-color: blue;"
+           text="Settings" textFill="WHITE"/>
+   <ProgressBar fx:id="progressBar" layoutX="290.0" layoutY="43.0" prefHeight="22.0" prefWidth="223.0" progress="0.51"
+                style="-fx-accent: blue; -fx-control-inner-background: #cc2500;"/>
+   <ProgressBar fx:id="healthBar" layoutX="25.0" layoutY="500.0" prefHeight="20.0" prefWidth="99.0" progress="0.56"
+                style="-fx-control-inner-background: #cc2500; -fx-border-color: #69a42b; -fx-accent: blue;"/>
+   <ProgressBar fx:id="happinessBar" layoutX="25.0" layoutY="533.0" prefHeight="20.0" prefWidth="99.0" progress="0.56"
+                style="-fx-control-inner-background: #cc2500; -fx-border-color: #69a42b; -fx-accent: blue;"/>
+   <ProgressBar fx:id="hungerBar" layoutX="25.0" layoutY="564.0" prefHeight="20.0" prefWidth="99.0" progress="0.56"
+                style="-fx-control-inner-background: #cc2500; -fx-border-color: #69a42b; -fx-accent: blue;"/>
+   <ProgressBar fx:id="thirstBar" layoutX="138.0" layoutY="500.0" prefHeight="20.0" prefWidth="99.0" progress="0.56"
+                style="-fx-control-inner-background: #cc2500; -fx-border-color: #69a42b; -fx-accent: blue;"/>
+   <Text boundsType="VISUAL" fill="#00ff90" layoutX="319.0" layoutY="57.0" opacity="0.68" scaleX="1.33" scaleY="1.22"
+         strokeType="OUTSIDE" strokeWidth="0.0" text="Progress Bar" textAlignment="CENTER"
+         wrappingWidth="161.9830722808838"/>
+   <Text fill="#00ff90" layoutX="153.0" layoutY="514.0" opacity="0.68" strokeType="OUTSIDE" strokeWidth="0.0"
+         text="Thirst" textAlignment="CENTER" wrappingWidth="68.99998486042023"/>
+   <Text fill="#00ff90" layoutX="40.0" layoutY="579.0" opacity="0.68" strokeType="OUTSIDE" strokeWidth="0.0"
+         text="Hunger" textAlignment="CENTER" wrappingWidth="68.99998188018799"/>
+   <Text fill="#00ff91" layoutX="40.0" layoutY="547.0" opacity="0.68" strokeType="OUTSIDE" strokeWidth="0.0"
+         text="Happiness" textAlignment="CENTER" wrappingWidth="68.99998188018799"/>
+   <Text fill="#00ff91" layoutX="40.0" layoutY="515.0" opacity="0.68" strokeType="OUTSIDE" strokeWidth="0.0"
+         text="Health" textAlignment="CENTER" wrappingWidth="68.99998188018799"/>
+   <ProgressBar fx:id="cleanBar" layoutX="138.0" layoutY="533.0" prefHeight="22.0" prefWidth="99.0" progress="0.56"
+                style="-fx-control-inner-background: #cc2500; -fx-border-color: #69a42b; -fx-accent: blue;"/>
+   <Text fill="#00ff90" layoutX="145.0" layoutY="548.0" opacity="0.68" strokeType="OUTSIDE" strokeWidth="0.0"
+         text="Cleanliness" textAlignment="CENTER" wrappingWidth="84.99998486042023"/>
+   <Button fx:id="trainButton" layoutX="350.0" layoutY="520.0" mnemonicParsing="false" onAction="#setTrainButton"
+           prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #1f8fe8;" text="Train"/>
+   <Button fx:id="feedButton" layoutX="442.0" layoutY="520.0" mnemonicParsing="false" onAction="#setFeedButton"
+           prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #1f8fe8;" text="Feed"/>
+   <Button fx:id="waterButton" layoutX="536.0" layoutY="520.0" mnemonicParsing="false" onAction="#setWaterButton"
+           prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #1f8fe8;" text="Water"/>
+   <Button fx:id="medicButton" layoutX="628.0" layoutY="520.0" mnemonicParsing="false" onAction="#setMedicButton"
+           prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #1f8fe8;" text="Medic"/>
+   <Button fx:id="cleanButton" layoutX="717.0" layoutY="520.0" mnemonicParsing="false" onAction="#setCleanButton"
+           prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #1f8fe8;" text="Clean"/>
+   <Text boundsType="VISUAL" layoutX="330.0" layoutY="25.0" scaleX="1.21" scaleY="1.11" strokeType="OUTSIDE"
+         strokeWidth="0.0" text="Student" textAlignment="CENTER" wrappingWidth="139.40363311767578"/>
 </Pane>

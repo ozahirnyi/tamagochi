@@ -14,29 +14,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78f42155-e2b8-449e-a4f9-bba87df6e1df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/world/ucode/control/CtrlGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/control/Ctrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/control/Ctrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/control/Ctrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/control/CtrlNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/view/BorutoChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/view/BorutoChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/world/ucode/view/borutoChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/world/ucode/view/BorutoChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gamePlay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gamePlay.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/newGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/newGame.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gamePlay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gamePlay.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/newGame.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/control/Ctrl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/model/GameLogicData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/model/Model$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/model/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/view/View.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/view/borutoChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/model/GameLogicData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/model/GameLogicData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/view/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/world/ucode/view/borutoChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/world/ucode/view/borutoChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tamagochi-1.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,14 +92,14 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/chars" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/train" />
       <recent name="$PROJECT_DIR$/src/main/resources/chars/boruto/borutoRans" />
       <recent name="$PROJECT_DIR$/src/main/resources/chars/borutoStand" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/chars" />
     </key>
   </component>
   <component name="RunManager">
@@ -139,6 +148,13 @@
       <workItem from="1602512086314" duration="4385000" />
       <workItem from="1602524271272" duration="1898000" />
       <workItem from="1602579391192" duration="10477000" />
+      <workItem from="1602605446288" duration="1376000" />
+      <workItem from="1602756270552" duration="5117000" />
+      <workItem from="1602765476412" duration="2066000" />
+      <workItem from="1602769986207" duration="1702000" />
+      <workItem from="1602783397006" duration="376000" />
+      <workItem from="1602842277728" duration="4543000" />
+      <workItem from="1602851208175" duration="2304000" />
     </task>
     <servers />
   </component>
@@ -158,6 +174,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1245" y="213" key="#Auto_Import" timestamp="1602844659275">
+      <screen x="0" y="23" width="2560" height="1352" />
+    </state>
+    <state x="1245" y="213" key="#Auto_Import/0.23.2560.1352@0.23.2560.1352" timestamp="1602844659275" />
     <state x="495" y="381" key="#Inspections" timestamp="1601658892372">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
@@ -175,6 +195,10 @@
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
     <state x="1142" y="406" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1345@0.23.2560.1345" timestamp="1602082116595" />
+    <state x="1267" y="339" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602772324621">
+      <screen x="0" y="23" width="2560" height="1352" />
+    </state>
+    <state x="1267" y="339" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1352@0.23.2560.1352" timestamp="1602772324621" />
     <state x="1199" y="449" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602074334094">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
@@ -183,50 +207,51 @@
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
     <state x="647" y="524" width="927" height="343" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.23.2560.1345@0.23.2560.1345" timestamp="1601909101709" />
-    <state width="501" height="936" key="GridCell.Tab.0.bottom" timestamp="1602601222983">
+    <state width="590" height="1216" key="GridCell.Tab.0.bottom" timestamp="1602853395127">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="177" key="GridCell.Tab.0.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1602167850849" />
-    <state width="501" height="936" key="GridCell.Tab.0.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1602601222983" />
-    <state width="501" height="936" key="GridCell.Tab.0.center" timestamp="1602601222982">
+    <state width="590" height="1216" key="GridCell.Tab.0.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1602853395127" />
+    <state width="590" height="1216" key="GridCell.Tab.0.center" timestamp="1602853395127">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="177" key="GridCell.Tab.0.center/0.23.2560.1345@0.23.2560.1345" timestamp="1602167850849" />
-    <state width="501" height="936" key="GridCell.Tab.0.center/0.23.2560.1352@0.23.2560.1352" timestamp="1602601222982" />
-    <state width="501" height="936" key="GridCell.Tab.0.left" timestamp="1602601222982">
+    <state width="590" height="1216" key="GridCell.Tab.0.center/0.23.2560.1352@0.23.2560.1352" timestamp="1602853395127" />
+    <state width="590" height="1216" key="GridCell.Tab.0.left" timestamp="1602853395127">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="177" key="GridCell.Tab.0.left/0.23.2560.1345@0.23.2560.1345" timestamp="1602167850848" />
-    <state width="501" height="936" key="GridCell.Tab.0.left/0.23.2560.1352@0.23.2560.1352" timestamp="1602601222982" />
-    <state width="501" height="936" key="GridCell.Tab.0.right" timestamp="1602601222982">
+    <state width="590" height="1216" key="GridCell.Tab.0.left/0.23.2560.1352@0.23.2560.1352" timestamp="1602853395127" />
+    <state width="590" height="1216" key="GridCell.Tab.0.right" timestamp="1602853395127">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="177" key="GridCell.Tab.0.right/0.23.2560.1345@0.23.2560.1345" timestamp="1602167850849" />
-    <state width="501" height="936" key="GridCell.Tab.0.right/0.23.2560.1352@0.23.2560.1352" timestamp="1602601222982" />
-    <state width="1691" height="233" key="GridCell.Tab.1.bottom" timestamp="1602584021818">
+    <state width="590" height="1216" key="GridCell.Tab.0.right/0.23.2560.1352@0.23.2560.1352" timestamp="1602853395127" />
+    <state width="1930" height="317" key="GridCell.Tab.1.bottom" timestamp="1602853085791">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="232" key="GridCell.Tab.1.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536812" />
-    <state width="1691" height="233" key="GridCell.Tab.1.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1602584021818" />
-    <state width="1691" height="233" key="GridCell.Tab.1.center" timestamp="1602584021818">
+    <state width="1930" height="317" key="GridCell.Tab.1.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1602853085791" />
+    <state width="1930" height="317" key="GridCell.Tab.1.center" timestamp="1602853085790">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="232" key="GridCell.Tab.1.center/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536811" />
-    <state width="1691" height="233" key="GridCell.Tab.1.center/0.23.2560.1352@0.23.2560.1352" timestamp="1602584021818" />
-    <state width="1691" height="233" key="GridCell.Tab.1.left" timestamp="1602584021818">
+    <state width="1930" height="317" key="GridCell.Tab.1.center/0.23.2560.1352@0.23.2560.1352" timestamp="1602853085790" />
+    <state width="1930" height="317" key="GridCell.Tab.1.left" timestamp="1602853085790">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="232" key="GridCell.Tab.1.left/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536811" />
-    <state width="1691" height="233" key="GridCell.Tab.1.left/0.23.2560.1352@0.23.2560.1352" timestamp="1602584021818" />
-    <state width="1691" height="233" key="GridCell.Tab.1.right" timestamp="1602584021818">
+    <state width="1930" height="317" key="GridCell.Tab.1.left/0.23.2560.1352@0.23.2560.1352" timestamp="1602853085790" />
+    <state width="1930" height="317" key="GridCell.Tab.1.right" timestamp="1602853085790">
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state width="2156" height="232" key="GridCell.Tab.1.right/0.23.2560.1345@0.23.2560.1345" timestamp="1602065536811" />
-    <state width="1691" height="233" key="GridCell.Tab.1.right/0.23.2560.1352@0.23.2560.1352" timestamp="1602584021818" />
-    <state x="912" y="357" key="Maven.ArtifactSearchDialog" timestamp="1601901882200">
-      <screen x="0" y="23" width="2560" height="1345" />
+    <state width="1930" height="317" key="GridCell.Tab.1.right/0.23.2560.1352@0.23.2560.1352" timestamp="1602853085790" />
+    <state x="912" y="359" key="Maven.ArtifactSearchDialog" timestamp="1602757965406">
+      <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state x="912" y="357" key="Maven.ArtifactSearchDialog/0.23.2560.1345@0.23.2560.1345" timestamp="1601901882200" />
+    <state x="912" y="359" key="Maven.ArtifactSearchDialog/0.23.2560.1352@0.23.2560.1352" timestamp="1602757965406" />
     <state x="1001" y="356" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601997071018">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>

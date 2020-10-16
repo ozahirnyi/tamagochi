@@ -2,12 +2,10 @@ package world.ucode.view;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
-import javafx.scene.image.ImageView;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.util.Duration;
-import world.ucode.model.Model;
-
 import java.util.ArrayDeque;
 
 public class BorutoChar extends Pane {
@@ -22,7 +20,7 @@ public class BorutoChar extends Pane {
     this.setTranslateY(345);
     setImageViews();
     standLine = timeLineCreator(stand, 500);
-    runLine = timeLineCreator(run, 200);
+    runLine = timeLineCreator(run, 100);
     borutoStand();
   }
 
@@ -57,8 +55,6 @@ public class BorutoChar extends Pane {
             new KeyFrame(
                 Duration.millis(duration),
                 actionEvent -> {
-                  if (!Model.scale) setScaleX(-1);
-                  else setScaleX(1);
                   getChildren().remove(arrayDeque.getFirst());
                   arrayDeque.addLast(arrayDeque.getFirst());
                   arrayDeque.removeFirst();
@@ -72,16 +68,16 @@ public class BorutoChar extends Pane {
   public void borutoRuns() {
     stayStatus = false;
     standLine.stop();
+    runLine.play();
     getChildren().remove(stand.getFirst());
     getChildren().add(run.getFirst());
-    runLine.play();
   }
 
   public void borutoStand() {
     stayStatus = true;
     runLine.stop();
+    standLine.play();
     getChildren().remove(run.getFirst());
     getChildren().add(stand.getFirst());
-    standLine.play();
   }
 }
