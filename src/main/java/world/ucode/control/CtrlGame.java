@@ -55,7 +55,7 @@ public class CtrlGame {
     Timeline progressTimeline =
         new Timeline(
             new KeyFrame(
-                Duration.seconds(3),
+                Duration.seconds(300),
                 p -> {
                   if (Model.progressBar > 0) Model.progressBar -= 0.1;
                 }));
@@ -63,12 +63,15 @@ public class CtrlGame {
     Timeline barsTimeline =
         new Timeline(
             new KeyFrame(
-                Duration.seconds(3),
+                Duration.seconds(30),
                 b -> {
                   if (Model.thirst > 0) Model.thirst -= 0.1;
                   if (Model.hunger > 0) Model.hunger -= 0.1;
                   if (Model.health > 0) Model.health -= 0.1;
-                  if (Model.happiness > 0 && Model.happiness < 1) {
+                  if (Model.happiness >= 0 && Model.happiness <= 1) {
+                    if ((Model.thirst + Model.cleanliness + Model.health + Model.hunger) / 4
+                        < 0.5) Model.happiness -= 0.1;
+                    else Model.happiness += 0.1;
                   }
                   if (Model.cleanliness > 0) Model.cleanliness -= 0.1;
                 }));

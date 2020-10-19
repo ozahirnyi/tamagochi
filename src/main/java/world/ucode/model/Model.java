@@ -7,6 +7,7 @@ import java.util.ArrayDeque;
 
 
 public class Model {
+  private Database database;
   public static ArrayDeque<String> lvls = new ArrayDeque<>();
   public static double health = 0.5;
   public static double happiness = 0.5;
@@ -18,6 +19,7 @@ public class Model {
   public static double currentY;
 
   public Model() {
+    this.database = new Database();
     lvlsCreator();
   }
 
