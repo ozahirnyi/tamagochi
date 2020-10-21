@@ -2,7 +2,5 @@ world/ucode/model/Model.class
 world/ucode/view/View.class
 world/ucode/view/BorutoChar.class
 module-info.class
-world/ucode/control/Ctrl.class
 world/ucode/Main.class
-world/ucode/model/GameLogicData.class
 world/ucode/view/Cakra.class
