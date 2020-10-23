@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 
 
 public class Model {
-  private Database database;
+  private final Database database;
   public static ArrayDeque<String> lvls = new ArrayDeque<>();
   public static double health = 0.5;
   public static double happiness = 0.5;
@@ -24,7 +24,7 @@ public class Model {
   }
 
   private void lvlsCreator() {
-    lvls.push("KAGE");
+    lvls.push("HOKAGE");
     lvls.push("JONIN");
     lvls.push("CHUNIN");
     lvls.push("GENIN");
@@ -54,7 +54,6 @@ public class Model {
   }
 
   public void trainPressed() {
-//    View.trainCreator();
     if (progressBar <= 1)
       progressBar += 0.1;
   }
@@ -75,10 +74,6 @@ public class Model {
       Main.CtrlGame.progressBar.setProgress(0.99);
     }
   }
-
-//  public double barsCoef() {
-//
-//  }
 
   private boolean lvlDown() {
     return progressBar == 0;
@@ -109,12 +104,12 @@ public class Model {
   }
 
   public int newInputData(String data) {
-    if (data.equals("Grisha")) return 1;
+    if (database.newGame(data)) return 1;
     else return 0;
   }
 
   public int loadInputData(String data) {
-    if (data.equals("Oleg")) return 0;
-    else return 1;
+    if (database.loadGame(data)) return 1;
+    else return 0;
   }
 }

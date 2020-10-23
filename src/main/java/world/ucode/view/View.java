@@ -8,7 +8,7 @@ import world.ucode.Main;
 
 public class View {
     public static BorutoChar borutoChar = new BorutoChar();
-    static Cakra cakra = new Cakra();
+    public static Cakra cakraToken = new Cakra();
     Stage mainStage;
     Pane newRoot;
     static Pane gameRoot;
@@ -39,6 +39,7 @@ public class View {
         loader.setLocation(getClass().getResource("/gamePlay.fxml"));
         gameRoot = loader.load(getClass().getResourceAsStream("/gamePlay.fxml"));
         gameRoot.getChildren().add(borutoChar);
+        gameRoot.getChildren().add(cakraToken);
         gameScene = new Scene(gameRoot, 800, 600);
         Main.CtrlGame = loader.getController();
         Main.CtrlGame.update();
@@ -46,8 +47,7 @@ public class View {
         mainStage.show();
     }
 
-    public static void trainCreator() {
-        gameRoot.getChildren().add(cakra);
-        cakra.setCakra();
+    public void tokenCreator() {
+//        gameRoot.getChildren().add(cakra);
     }
 }

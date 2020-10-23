@@ -10,8 +10,6 @@ public class Database {
   Database() {
     createDB();
     createTables();
-    newGame("OLEG");
-    loadGame("OLEG");
   }
 
   private void createDB() {
@@ -37,19 +35,18 @@ public class Database {
   }
 
   public boolean loadGame(String login) {
-    String findQuery = "SELECT name FROM users WHERE name = 'OLEG'";
+    String findQuery = "SELECT name FROM users WHERE name = '" + login + "'";
 
     try {
       resultSet = statement.executeQuery(findQuery);
-      System.out.println(resultSet.getString("name"));
-      return true;
+      return !resultSet.getString("name").isEmpty();
     } catch (SQLException throwables) {
       return false;
     }
   }
 
   public boolean newGame(String login) {
-    String addQuery = "INSERT INTO users(name) VALUES('OLEG')";
+    String addQuery = "INSERT INTO users(name) VALUES('" + login + "')";
 
     try {
       statement.execute(addQuery);
