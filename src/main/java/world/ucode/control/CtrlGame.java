@@ -73,11 +73,18 @@ public class CtrlGame {
                                         else Model.health += 0.1;
                                     }
                                     if (Model.happiness >= 0 && Model.happiness <= 1) {
-                                        if ((Model.thirst + Model.cleanliness + Model.health + Model.hunger) / 4
-                                                < 0.5) Model.happiness -= 0.1;
+                                        if ((Model.thirst + Model.cleanliness
+                                                + Model.health + Model.hunger) / 4 < 0.5) Model.happiness -= 0.1;
                                         else Model.happiness += 0.1;
                                     }
                                     if (Model.cleanliness > 0) Model.cleanliness -= 0.1;
+                                    else if (Model.health <= 0) {
+                                        try {
+                                            Main.View.overCreator();
+                                        } catch (Exception e) {
+                                            e.printStackTrace();
+                                        }
+                                    }
                                 }));
 
         AnimationTimer update =
@@ -152,5 +159,19 @@ public class CtrlGame {
 
     public void settingsPressed() {
         System.out.println("Settings pressed!");
+    }
+
+    public void obnulyator() {
+//        happinessBar.setProgress(0.5);
+//        progressBar.setProgress(0.01);
+//        cleanBar.setProgress(0.5);
+//        healthBar.setProgress(0.5);
+//        hungerBar.setProgress(0.5);
+//        thirstBar.setProgress(0.5);
+        Model.health = 0.5;
+        Model.happiness = 0.5;
+        Model.hunger = 0.5;
+        Model.cleanliness = 0.5;
+        Model.thirst = 0.5;
     }
 }

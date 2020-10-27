@@ -3,6 +3,7 @@ package world.ucode.control;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import world.ucode.Main;
+import world.ucode.view.View;
 
 public class CtrlNew {
     public Button newGame;
@@ -12,13 +13,15 @@ public class CtrlNew {
 
     public void newGamePressed() throws Exception {
         if (newInputParse(newInput.getText()) == 1) {
-            Main.View.gameCreator();
+            if (View.gameRoot != null) Main.View.gamePlayOn();
+            else Main.View.gameCreator();
         } else System.out.println("newGame: Error");
     }
 
     public void loadGamePressed() throws Exception {
         if (loadInputParse(loadInput.getText()) == 1) {
-            Main.View.gameCreator();
+            if (View.gameRoot != null) Main.View.gamePlayOn();
+            else Main.View.gameCreator();
         } else System.out.println("loadGame: Error");
     }
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="world.ucode.control.CtrlOver">
+   <children>
+      <ImageView fitHeight="529.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@newGame/konohaNewGame1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="481.0" fitWidth="337.0" layoutX="449.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@newGame/borutoNewGame.png" />
+         </image>
+      </ImageView>
+      <Text accessibleRole="CONTEXT_MENU" cache="true" cacheHint="QUALITY" depthTest="DISABLE" fill="RED" layoutX="146.0" layoutY="76.0" lineSpacing="2.0" scaleX="3.0" scaleY="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Over" wrappingWidth="71.31640815734863" />
+      <Button fx:id="newGame" layoutX="75.0" layoutY="99.0" mnemonicParsing="false" onAction="#newGamePressed" prefHeight="32.0" prefWidth="194.0" text="New Game" />
+   </children>
+</Pane>
