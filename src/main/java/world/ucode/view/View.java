@@ -41,14 +41,11 @@ public class View {
     }
 
     public void gamePlayOn() {
+        Main.CtrlGame.barsTimeline.play();
         mainStage.setHeight(650);
         mainStage.setWidth(800);
         mainStage.setScene(gameScene);
         mainStage.show();
-    }
-
-    public void gameOverOn() {
-        
     }
 
     public void newCreator() throws Exception {

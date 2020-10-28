@@ -33,7 +33,6 @@ public class Cakra extends Pane {
 
     public void setTokenValue(int value) {
         this.tokenValue = value;
-        System.out.println("CURRENT TOKEN: " + this.tokenValue);
         this.tokenCount.setText("x " + tokenValue);
     }
 }

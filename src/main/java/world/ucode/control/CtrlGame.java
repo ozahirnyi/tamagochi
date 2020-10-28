@@ -27,6 +27,7 @@ public class CtrlGame {
     public ProgressBar happinessBar;
     public ProgressBar thirstBar;
     public ProgressBar cleanBar;
+    public Timeline barsTimeline;
 
     public void gamePlayKeyPressed() throws Exception {
         View.gameScene.setOnKeyPressed(
@@ -60,7 +61,7 @@ public class CtrlGame {
                                     if (Model.progressBar > 0) Model.progressBar -= 0.1;
                                 }));
 
-        Timeline barsTimeline =
+        barsTimeline =
                 new Timeline(
                         new KeyFrame(
                                 Duration.seconds(3),
@@ -80,6 +81,7 @@ public class CtrlGame {
                                     if (Model.cleanliness > 0) Model.cleanliness -= 0.1;
                                     else if (Model.health <= 0) {
                                         try {
+                                            barsTimeline.stop();
                                             Main.View.overCreator();
                                         } catch (Exception e) {
                                             e.printStackTrace();
@@ -162,12 +164,6 @@ public class CtrlGame {
     }
 
     public void obnulyator() {
-//        happinessBar.setProgress(0.5);
-//        progressBar.setProgress(0.01);
-//        cleanBar.setProgress(0.5);
-//        healthBar.setProgress(0.5);
-//        hungerBar.setProgress(0.5);
-//        thirstBar.setProgress(0.5);
         Model.health = 0.5;
         Model.happiness = 0.5;
         Model.hunger = 0.5;
