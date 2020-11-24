@@ -26,6 +26,8 @@ Use this build commands:
 ## Screens
 
 <img src=screen1.png>
+<img src=screen2.png>
+<img src=screen3.png>
 
 ## License
 [UCode]
